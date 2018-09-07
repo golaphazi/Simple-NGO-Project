@@ -1,0 +1,31 @@
+ 
+ 
+ /*pagination css*/
+ ul.paginationUl{
+ display:block;
+ margin-left:-23px; 
+ }
+ ul.paginationUl li {
+	float: left;
+	background: #ccc;
+	padding: 4px;
+	border-radius: 0px;
+	border-left: 1px solid #eeeeee;
+	/*width:100%;*/
+	min-width: 29px;
+	height: 29px;
+	text-align: center;
+	vertical-align: middle;
+	list-style:none;
+}
+ul.paginationUl li:last-child {
+	/*border-right: 1px solid #eeeeee;*/
+	border-radius: 0px 6px 6px 0px;
+}
+ul.paginationUl li:first-child {
+	border-radius: 6px 0px 0px 6px;
+	border-left: 0px solid #eeeeee;
+}
+ul.paginationUl li.active{background: #333;}
+ul.paginationUl li a{color:#333;}
+ul.paginationUl li.active a{color:#fff;}
